@@ -1,0 +1,22 @@
+.floatingWindow {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.floatingWindow .titlebar {
+  background-color: white;
+  padding: 5px;
+  line-height: 2;
+}
+
+.floatingWindow .windowContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

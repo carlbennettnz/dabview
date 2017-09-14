@@ -1,0 +1,12 @@
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu .menuItem {
+  padding: 3px 5px;
+  font-size: 13px;
+}

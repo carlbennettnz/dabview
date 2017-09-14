@@ -1,0 +1,7 @@
+.button {
+  border: 1px solid black;
+  background-image: linear-gradient(#eee, #ccc 10%, #ccc 90%, #888);
+  position: absolute;
+  padding: 40px 60px;
+  font-size: 13px;
+}
