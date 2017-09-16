@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint src && preact test",
+    "test": "./node_modules/.bin/eslint src && ./node_modules/.bin/ava tests/**/*-test.js",
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
     "build": "preact build",
     "serve": "preact build && preact serve",
@@ -17,6 +17,7 @@
     "extends": "eslint-config-standard-preact"
   },
   "devDependencies": {
+    "ava": "^0.22.0",
     "eslint": "^4.6.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-preact": "^1.1.6",
