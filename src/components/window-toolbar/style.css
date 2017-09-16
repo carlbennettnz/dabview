@@ -2,11 +2,16 @@
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 0 0 1px;
   overflow: hidden;
 }
 
-.menu .menuItem {
-  padding: 3px 5px;
+.menuItem {
+  padding: 3px 7px;
   font-size: 12px;
+}
+
+.menuItem:hover {
+  background-color: #39f;
+  color: white;
 }

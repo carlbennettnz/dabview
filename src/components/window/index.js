@@ -39,7 +39,7 @@ export default class Window extends Component {
                 <rect x="0.5" y="0.5" width="9" height="9" stroke="black" fill="transparent" />
               </svg>
             </button>
-            <button>
+            <button class={style.exit}>
               <svg width="10" height="10">
                 <line x1="0" y1="0" x2="10" y2="10" stroke="black" />
                 <line x1="0" y1="10" x2="10" y2="0" stroke="black" />
