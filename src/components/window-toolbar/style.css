@@ -3,10 +3,10 @@
   display: flex;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #ccc;
+  overflow: hidden;
 }
 
 .menu .menuItem {
   padding: 3px 5px;
-  font-size: 13px;
+  font-size: 12px;
 }

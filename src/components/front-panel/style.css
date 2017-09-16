@@ -5,11 +5,31 @@
 }
 
 .panel .canvas {
-  background-color: #f0f0f0;
+  background-color: #e2e2e2;
   background-image:
-    linear-gradient(#ccc 0, #ccc 1px, transparent 1px),
-    linear-gradient(90deg, #ccc 0, #ccc 1px, transparent 1px);
+    linear-gradient(#c9c9c9 0, #c9c9c9 1px, transparent 1px),
+    linear-gradient(90deg, #c9c9c9 0, #c9c9c9 1px, transparent 1px);
   background-size: 12px 12px;
   flex: 1;
   position: relative;
+}
+
+.toolbar {
+  border-top: 1px solid #a0a0a0;
+  border-bottom: 1px solid #666;
+  box-shadow: inset 0 1px 0 white;
+  padding: 2px 1px 1px 60px;
+  display: flex;
+}
+
+.toolbar button {
+  padding: 0;
+  border: 1px solid #767676;
+  background: none;
+  line-height: 0;
+  margin: 0 -1px 0 0;
+}
+
+.toolbar img {
+  image-rendering: pixelated;
 }
