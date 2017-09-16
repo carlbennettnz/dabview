@@ -6,10 +6,10 @@ import FrontPanel from '../../components/front-panel';
 export default class Home extends Component {
 	render() {
 		return (
-			<div class={style.home}>
-				<ProjectExplorer w={320} />
-        <FrontPanel x={340} />
-			</div>
+  <div class={style.home}>
+    <ProjectExplorer w={320} />
+    <FrontPanel x={340} />
+  </div>
 		)
 	}
 }

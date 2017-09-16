@@ -1,3 +1,4 @@
+import { h } from 'preact'
 import Window from '../window'
 import style from './style'
 import Button from '../blocks/button'
@@ -16,8 +17,8 @@ export default class FrontPanel extends Window {
     return (
       <div class={style.panel}>
         <div class={style.toolbar}>
-          <button title="Run"><img src="/assets/icons/run.png" alt="Run" /></button>
-          <img src="/assets/icons/other-icons.png" />
+          <button title='Run'><img src='/assets/icons/run.png' alt='Run' /></button>
+          <img src='/assets/icons/other-icons.png' />
           {/*<button title="Run Continuously">Run Continuously</button>
           <button title="Abort Execution">Abort Execution</button>
           <button title="Pause">Pause</button>
