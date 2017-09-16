@@ -14,11 +14,16 @@
   "author": "",
   "license": "ISC",
   "eslintConfig": {
-    "extends": "eslint-config-synacor"
+    "extends": "eslint-config-standard-preact"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-preact": "^1.1.6",
     "eslint-config-synacor": "^1.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1",
     "if-env": "^1.0.0",
     "preact-cli": "^1.4.1"
   },
