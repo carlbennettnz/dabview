@@ -1,3 +1,4 @@
+import { h } from 'preact'
 import Window from '../window';
 
 export default class ProjectExplorer extends Window {
