@@ -1,1 +1,10 @@
 **/node_modules/
+**/build/
+
+*.jar
+*.class
+
+**/target/
+
+.idea/workspace.xml
+.idea/tasks.xml
