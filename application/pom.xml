@@ -5,8 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>club.niarc.dabview</groupId>
-    <artifactId>dabview-deploy</artifactId>
+    <artifactId>dabview-application</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>club.niarc.dabview</groupId>
+            <artifactId>dabview-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

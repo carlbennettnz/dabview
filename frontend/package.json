@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "eslint": "^4.6.1",
+    "eslint": "^4.7.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-preact": "^1.1.6",
     "eslint-config-synacor": "^1.1.1",

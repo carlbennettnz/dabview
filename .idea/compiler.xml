@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="application" />
         <module name="dabviewcore" />
         <module name="deployment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="application" target="1.5" />
       <module name="dabviewcore" target="1.5" />
       <module name="deployment" target="1.5" />
     </bytecodeTargetLevel>
